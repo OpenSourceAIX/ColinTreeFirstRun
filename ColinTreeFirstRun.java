@@ -1,3 +1,8 @@
+/**
+ * @author ColinTree (colinycl123@gmail.com)
+ * @original appinventor.components.src.com.google.appinventor.components.runtime.TinyDB
+ */
+
 package cn.colintree.aix;
 
 import android.content.Context;

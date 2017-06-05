@@ -43,12 +43,12 @@ implements Component {
     final Object valueToStore="false";
     
     @SimpleFunction(description = "return if it is first time to run, if it is true, set a flag.")
-    public String IsFirstRun() {
+    public boolean IsFirstRun() {
     	if (GetValue(tag,"FirstRun!!!!!")=="FirstRun!!!!!"||GetValue(tag,"FirstRun!!!!!")=="false"){
     		StoreValue(tag,valueToStore);
-    		return "true";
+    		return true;
     	}else{
-    		return "false";
+    		return false;
     	}
     }
     @SimpleFunction(description = "")
